@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:powderblue;">
-
-<h1>CHATBOT 1.O  </h1>  
+  <head>
+    <title>chart-bot</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"></head>
+<body style="background-image: url('img/bg5.jpeg');">
+  <div id="shitpost" style="display: inline-block;">
+    <a id="thing" href="https://www.linkedin.com/in/ch-premchand/" target="_blank">
+        <img id="iprem" src="img/joker-movie.webp">
+        <audio id="joker"><source src="audio/JokerBgms.mp3"></audio>
+    </a>
+</div>
+<div id="shitpost" style="display: inline-flex;">
+  <a id="thing1" href="https://www.saisrikar.live/" target="_blank">
+      <img id="isrikar" src="img/captain.jpg">
+      <audio id="grindlewald"><source src="audio/Buryafriend.mp3"></audio>
+  </a>
+</div>
+<h1>CHATBOT 1.O  </h1>
   <p>Ask me About VLSI and AI.</p>
-<iframe src='https://webchat.botframework.com/embed/srikarbot2804?s=dROMYYC9B5w.iBlfUyIKagZEPs8PmjX9lWdRs-IUoFvtVNmepw7uQoo'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+<iframe src='https://webchat.botframework.com/embed/srikarbot2804?s=dROMYYC9B5w.iBlfUyIKagZEPs8PmjX9lWdRs-IUoFvtVNmepw7uQoo'></iframe>
+<script>
+  var prem = document.getElementById('iprem'),
+  music = document.getElementById('joker')
+ audios = document.querySelectorAll('audio');
+
+   prem.addEventListener('mouseover', function() {
+   [].forEach.call(audios, function(audio) {
+   music.play();
+   });
+   }, false);
+
+   prem.addEventListener('mouseleave', function() {
+   music.pause();
+   music.currentTime = 0;
+   }, false);
+
+   function myFunction() {
+       document.getElementById("shitpost").style.display = "inline";
+   }
+</script>
 </body>
 </html>

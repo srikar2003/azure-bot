@@ -1,7 +1,7 @@
 * {
     font-family: 'Franklin Gothic Medium', 'courier new', Arial, monospace;
     font-size: large;
-    font-size: 200px;
+    font-size: 100px;
     color: #000;
 }
 h1 {
@@ -24,8 +24,8 @@ a {
     cursor: pointer;
 }
 iframe{
-    min-width: 800px;
-    min-height: 800px;
+    min-width: 1000px;
+    min-height: 1000px;
     border-radius: 50px;
     position:initial;
     padding-left: 50px;

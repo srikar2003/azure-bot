@@ -56,6 +56,6 @@ iframe{
     left:10px;
 }
 footer{
-    font-size: 1px !important;
-    bottom: 0px;
+    font-size: 10px !important;
+    bottom: 2px;
 }
